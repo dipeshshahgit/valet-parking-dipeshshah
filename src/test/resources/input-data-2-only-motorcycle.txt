@@ -1,0 +1,4 @@
+2 2
+Enter motorcycle SGX1234A 1600000000
+Enter motorcycle SGX1234B 1600000001
+Enter motorcycle SGX1234C 1600000003
