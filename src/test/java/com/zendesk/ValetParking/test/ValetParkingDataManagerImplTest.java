@@ -67,14 +67,14 @@ public class ValetParkingDataManagerImplTest {
 	}
 
 	@Test(expected = DataLayerException.class)
-	public void enterValetParkingInvalidVehicalType1() throws DataLayerException {
+	public void enterValetParkingInvalidVehicleType1() throws DataLayerException {
 		ValetParkingDataManagerimpl.createValetParkingLot(1, VehicleType.Motorcycle);
 		Vehicle testVehicle = new Car(licenseNumber);
 		ValetParkingDataManagerimpl.enter(testVehicle, epochTime);
 	}
 
 	@Test(expected = DataLayerException.class)
-	public void enterValetParkingInvalidVehicalType2() throws DataLayerException {
+	public void enterValetParkingInvalidVehicleType2() throws DataLayerException {
 		ValetParkingDataManagerimpl.createValetParkingLot(1, VehicleType.Car);
 		Vehicle testVehicle = new Motorcycle(licenseNumber);
 		ValetParkingDataManagerimpl.enter(testVehicle, epochTime);

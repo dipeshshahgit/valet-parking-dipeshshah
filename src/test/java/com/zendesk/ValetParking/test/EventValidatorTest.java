@@ -44,7 +44,7 @@ public class EventValidatorTest {
 	}
 
 	@Test
-	public void validateEnterValetParkingLotEventInvalidVehicalTest() {
+	public void validateEnterValetParkingLotEventInvalidVehicleTest() {
 		assertFalse(eventValidator.validateEnterValetParkingLotEvent("Enter Car1 SGX123GG 123123123"));
 	}
 

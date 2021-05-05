@@ -62,7 +62,7 @@ public class ValetParkingDataManagerImpl implements ValetParkingDataManager {
 	/**
 	 * @param Vehicle : Object containing registration number of Vehicle and Vehicle type
 	 * @param epochEnter: Vehicle entry time in epoch.
-	 * @return Either "Accept VehicalLot<Number>" or Reject
+	 * @return Either "Accept VehicleLot<Number>" or Reject
 	 */
 	@Override
 	public String enter(Vehicle vehicle, Long epochEnter) throws DataLayerException {
@@ -89,7 +89,7 @@ public class ValetParkingDataManagerImpl implements ValetParkingDataManager {
 	/**
 	 * @param regNumber : registration number of Vehicle
 	 * @param exitEpoch: Vehicle exit time in epoch.
-	 * @return: "VehicalLot<Number>  <parkingCharges>" depending on Vehicle Type 
+	 * @return: "VehicleLot<Number>  <parkingCharges>" depending on Vehicle Type 
 	 */
 	@Override
 	public String exit(String regNumber, Long exitEpoch) throws DataLayerException {

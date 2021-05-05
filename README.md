@@ -16,11 +16,14 @@ Valet Parking is Car & Motorcycle parking applicaiton. The program accepts file 
 2. run command mvn to cleanup and package the jar file
 mvn clean package
 
-3. Ensure the maven build is successful and jar file is created
+3. to execute JunitTests execute follow command
+mvn test
+
+4. Ensure the maven build is successful and jar file is created
 ls -ls target/ValetParkingApplication-1.0-SNAPSHOP.jar
 2184 -rw-r--r--  1 dipeshshah  staff  1116054 May  5 17:51 target/ValetParkingApplication-1.0-SNAPSHOP.jar
 
-4. run program as follows with given sample file
+5. run program as follows with given sample file
 java -jar target/ValetParkingApplication-1.0-SNAPSHOP.jar src/main/resources/input-data.txt
 Accept MotorcycleLot1
 Accept CarLot1
@@ -118,7 +121,7 @@ Note: the docker execution is currently only limited to sample file. Dockerfile 
     │   │           └── valetparking
     │   │               ├── constants : Containing Supported Event Type, Capacity etc
     │   │               ├── dao : DS to store data after processing file events
-    │   │               ├── entity : Classes Vehical, Car, Motorcycle, VehicalType
+    │   │               ├── entity : Classes Vehicle, Car, Motorcycle, VehicleType
     │   │               ├── exception: Custom project specific Exception classes
     │   │               ├── service : Service to handle and process events from file
     │   │               └── validator : Validate events before storing and processing
