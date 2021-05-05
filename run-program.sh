@@ -7,8 +7,8 @@ echo "Done";
 echo "=================================================================";
 echo "\nExecuting Program ValetParking\n"
 if [ -z "$1" ]; then
-        java -jar target/ValetParkingApplication-1.0-SNAPSHOP.jar src/main/resources/input-data.txt
+        java -jar target/ValetParkingApplication-1.0-SNAPSHOT.jar src/main/resources/input-data.txt
         exit 1
 else
-        java -jar target/ValetParkingApplication-1.0-SNAPSHOP.jar $arg1
+        java -jar target/ValetParkingApplication-1.0-SNAPSHOT.jar $arg1
 fi

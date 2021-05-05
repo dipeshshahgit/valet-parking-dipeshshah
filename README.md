@@ -20,11 +20,11 @@ mvn clean package
 mvn test
 
 4. Ensure the maven build is successful and jar file is created
-ls -ls target/ValetParkingApplication-1.0-SNAPSHOP.jar
-2184 -rw-r--r--  1 dipeshshah  staff  1116054 May  5 17:51 target/ValetParkingApplication-1.0-SNAPSHOP.jar
+ls -ls target/ValetParkingApplication-1.0-SNAPSHOT.jar
+2184 -rw-r--r--  1 dipeshshah  staff  1116054 May  5 17:51 target/ValetParkingApplication-1.0-SNAPSHOT.jar
 
 5. run program as follows with given sample file
-java -jar target/ValetParkingApplication-1.0-SNAPSHOP.jar src/main/resources/input-data.txt
+java -jar target/ValetParkingApplication-1.0-SNAPSHOT.jar src/main/resources/input-data.txt
 Accept MotorcycleLot1
 Accept CarLot1
 MotorcycleLot1 2
