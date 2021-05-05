@@ -1,5 +1,5 @@
 # Valet Parking
-Valet Parking is Car & Motorcycle parking applicaiton.
+Valet Parking is Car & Motorcycle parking applicaiton. The program accepts file as an input, allocated specified parking lot and processes Enter / Exit events.
 
 ## Installation & Execution
 ### Project Requirements
